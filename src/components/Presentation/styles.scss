@@ -1,0 +1,63 @@
+main {
+  display: flex;
+
+
+  .container {
+    margin: 8rem 12rem;
+
+    h1 {
+      background-image: radial-gradient(circle at 87.5% 87.5%, #65ddd6 0, #5fdcde 10%, #5bdce6 20%, #5adbee 30%, #5cdaf5 40%, #61d9fb 50%, #68d7ff 60%, #72d6ff 70%, #7dd4ff 80%, #89d1ff 90%, #95cfff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      
+      margin: .6rem 0;
+      max-width: 450px;
+      font-size: 4.5rem;
+      font-weight: 900;
+      line-height: 4.5rem;
+    }
+    
+
+    h3 {
+      font-weight: 700;
+      font-size: 1.5rem;
+      line-height: 2.125rem;
+    }
+
+    h4 {
+      margin-top: 1.5rem;
+      max-width: 400px;
+      line-height: 2rem;
+      font-weight: 900;
+      font-size: 1.3rem;
+    }
+
+    button {
+      margin-top: 2rem;
+      color: var(--gray-900);
+      background: var(--yellow-500);
+      border: 0;
+      font-size: 1.2rem;
+      width: 260px;
+      height: 64px;
+      border-radius: 999999px;
+      font-weight: 700;
+      transition: 0.2s;
+    }
+
+    button:hover {
+      filter: brightness(0.9);
+    }
+  }
+
+  figure {
+    width: 600px;
+    height: 600px;
+    margin-left: 2rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
