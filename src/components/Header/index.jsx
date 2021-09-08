@@ -3,7 +3,7 @@ import './styles.scss';
 export function Header() {
   return (
     <nav>
-      <h1>Haptic <span>Glove</span></h1>
+      <h1>Haptic <p>Glove</p></h1>
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#projeto">Projeto</a></li>

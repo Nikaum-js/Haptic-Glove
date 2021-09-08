@@ -55,6 +55,7 @@ export function Presentation() {
         <h4>O mundo está mudando, e você está pronto para essa mudança!</h4>
         <button>Saiba mais</button>
       </div>
+      
       <figure>
         <img src={ProgramingMan} alt="programing" />
       </figure>

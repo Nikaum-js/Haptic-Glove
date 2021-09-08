@@ -10,7 +10,8 @@ nav {
     line-height: 3rem;
     cursor: pointer;
 
-    span {
+    p {
+      display: inline;
       color: var(--yellow-500);
     }
   }
