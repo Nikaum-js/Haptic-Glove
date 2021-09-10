@@ -50,7 +50,7 @@ export function Presentation() {
   return (
     <main>
       <div className="container typewriter">
-        <h3>👨‍💻 Olá, Bem vindo!</h3>
+        <h3>👏 Olá, Bem vindo!</h3>
         <h1 className="typing">Faça parte do novo futuro!</h1>
         <h4>O mundo está mudando, e você está pronto para essa mudança!</h4>
         <button>Saiba mais</button>
