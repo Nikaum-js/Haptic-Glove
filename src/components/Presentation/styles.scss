@@ -5,6 +5,7 @@ main {
 
 
   .container {
+    height: 400px;
 
     h1 {
       background-image: radial-gradient(circle at 87.5% 87.5%, #65ddd6 0, #5fdcde 10%, #5bdce6 20%, #5adbee 30%, #5cdaf5 40%, #61d9fb 50%, #68d7ff 60%, #72d6ff 70%, #7dd4ff 80%, #89d1ff 90%, #95cfff 100%);
@@ -77,6 +78,7 @@ span {
 
 .typewriter {
   width: 500px;
+  height: 500px;
 }
 
 @keyframes caret {
