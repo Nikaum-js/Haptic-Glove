@@ -1,0 +1,47 @@
+.project {
+  margin: 10rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  h1 {
+    margin: 2rem 0;
+  }
+
+  .container-project {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    
+    .content-image {
+      height: 600px;
+      width: 600px;
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    
+
+    .content-project {
+      margin: 5rem 0;
+      width: 600px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h2 {
+        font-size: 2rem;
+        margin: 2rem 0;
+      }
+
+      p {
+        text-align: justify;
+        font-size: 1.3rem;
+      }
+    }
+  }
+}

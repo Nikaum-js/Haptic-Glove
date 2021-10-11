@@ -7,7 +7,7 @@
 }
 
 .container-cards {
-  width: 70vw;
+  width: 60%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -64,9 +64,9 @@
   text-align: justify; 
 }
 
-/* .container-cards .card .face.face1 .content #detalhe {
+.container-cards .card .face.face1 .content #detalhe {
   margin-top: 2rem;
-} */
+}
 
 .container-cards .card .face.face2{
   position: relative;
@@ -92,7 +92,7 @@
 }
 
 .container-cards .card .face.face2 .content a{
-  margin:15px 0 0;
+  margin: 15px 0 0;
   display: inline-block;
   text-decoration: none;
   font-weight: 900;

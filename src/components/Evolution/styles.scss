@@ -1,0 +1,35 @@
+section {
+  margin: 7rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .evolution-container {
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+  
+    .content-box {
+      margin: 5rem 0;
+      background: #333;
+      width: 350px;
+      height: 370px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+
+      h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin: 3rem 0;
+      }
+  
+      img {
+        width: 60%;
+        height: 60%;
+      }
+    }
+  }
+}

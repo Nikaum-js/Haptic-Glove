@@ -11,7 +11,7 @@ import './styles.css'
 export function Cards() {
   return (
   <div className="container-main">
-    <h1>Tecnologias utilizadas</h1>
+    <h1  id="tecnologias">Tecnologias utilizadas</h1>
     <div class="container-cards">
 
       <div class="card">
