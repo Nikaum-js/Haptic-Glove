@@ -5,6 +5,7 @@ import { Evolution } from "./components/Evolution";
 
 import './styles/global.scss';
 import { Project } from "./components/Project";
+import { ComingSoon } from "./components/ComingSoon";
 
 function App() {
   return (
@@ -14,11 +15,12 @@ function App() {
       <Project />
       <Cards />
       <Evolution />
+      <ComingSoon /> 
     </>
   )
 }
 
-export default A
+export default App
 
 
 

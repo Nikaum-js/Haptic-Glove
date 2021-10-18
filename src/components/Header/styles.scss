@@ -1,4 +1,4 @@
-nav {
+.Navbar {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid var(--gray-700);
@@ -41,5 +41,82 @@ nav {
     li:hover {
       transform: scale(1.1);
     }
+  }
+}
+
+
+@media (max-width: 740px) {
+  nav {
+    display: none;
+  }
+
+  .one,
+  .two,
+  .three {
+    background-color: #fff;
+    height: 5px;
+    width: 100%;
+    margin: 6px auto;
+
+    transition-duration: 0.3s;
+  }
+
+  .menu-toggle {
+    width: 40px;
+    height: 30px;
+    margin-top: 2rem;
+    margin-left: -4rem;
+  }
+
+  .menu-section.on {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: linear-gradient(357deg,rgb(14 14 15),rgb(31 31 36));
+
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-section.on nav {
+    display: block;
+  }
+
+  .menu-section.on .menu-toggle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 2rem;
+  }
+
+  .menu-section.on .menu-toggle .one {
+    transform: rotate(45deg) translate(7px, 7px);
+  } 
+
+  .menu-section.on .menu-toggle .two {
+    opacity: 0;
+  } 
+
+  .menu-section.on .menu-toggle .three {
+    transform: rotate(-45deg) translate(8px, -9px);
+  }
+  
+  .menu-section.on nav ul {
+    text-align: center;
+    display: block;
+  }
+
+  .menu-section.on nav ul a {
+    transition-duration: 0.5s;
+    padding: 1rem 0;
+    line-height: 4rem;
+    display: block;
   }
 }

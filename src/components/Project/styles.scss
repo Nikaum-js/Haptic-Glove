@@ -45,3 +45,18 @@
     }
   }
 }
+
+
+@media (max-width: 768px) {
+  .container-project {
+    .content-image {
+      display: none;
+    }
+
+    .content-project {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

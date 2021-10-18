@@ -1,0 +1,72 @@
+.texto {
+  color: white;
+  margin-left: 140px;
+  font-size: 1em;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 730px) {
+  .sobre {
+    justify-content: center;
+  }
+  .texto {
+    margin-left: 0;
+    font-size: .9rem;
+  }
+}
+
+.color {
+	animation: bg 10s cubic-bezier(.51,.55,.65,.61) infinite;
+
+}
+@keyframes bg {
+  from {
+    color: #fb0505;
+  }
+
+  10% {
+    color: yellow;
+  }
+
+  20% {
+    color: #fb7607;
+  }
+
+  30% {
+    color: #61f205;
+  }
+
+	40% {
+		color: #00f6cb;
+	}
+
+  60% {
+    color: blue;
+  }
+
+  70% {
+    color: blueviolet;
+  }
+
+  80% {
+    color: red;
+  }
+
+  90% {
+    color: gold;
+  }
+
+  100% {
+    color: #fb7607;
+  }
+}
+
+header {
+	background-color: silver;
+}
+
+
+
+
+
