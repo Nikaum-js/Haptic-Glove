@@ -10,7 +10,7 @@ export function Evolution() {
       <h1>Evoluções do projeto</h1>
 
       <div className="evolution-container">
-
+    
         <div className="content-box">
           <h2>Versão 1.0</h2>
           <img id="giantImg" src={GloveImg} alt="bla bla bla" />
