@@ -105,3 +105,40 @@
   background: #333;
   color: #fff;
 }
+
+@media (max-width: 1000px) {
+  .container-cards {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 775px) {
+  .container-main h1{
+    margin: 5rem;
+  }
+
+  .container-main h1{
+    text-align: center;
+  }
+}
+
+@media (max-width: 775px) {
+  .container-main h1{
+    margin: 5rem;
+  }
+
+  .container-main h1{
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .container-main h1{
+    margin-top: 10rem;
+    font-size: 3rem;
+  }
+
+  .container-main h1{
+    text-align: center;
+  }
+}

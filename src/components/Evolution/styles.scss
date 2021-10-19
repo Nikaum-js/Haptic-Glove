@@ -6,7 +6,7 @@ section {
   flex-direction: column;
 
   .evolution-container {
-    width: 70vw;
+    width: 80vw;
     display: flex;
     justify-content: space-between;
   
@@ -29,6 +29,48 @@ section {
       img {
         width: 100%;
         height: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1370px) {
+  .evolution-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1370px) {
+  .evolution-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 820px) {
+  section {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
+@media (max-width: 470px) {
+  section {
+    h1 {
+      font-size: 3rem;
+      width: 300px;
+      text-align: center;
+    }
+
+    .evolution-container {
+      .content-box {
+        margin: 3rem 0;
+        width: 280px;
+        height: 370px;
       }
     }
   }

@@ -90,9 +90,43 @@ span {
 @media (max-width: 880px) {
   main {
       figure {
+        display: none;
         img {
-          display: none;
         }
     }
+  }
+}
+
+@media (max-width: 850px) {
+  main {
+    justify-content: center;
+    align-items: center;
+    margin: 8rem 20rem;
+    
+    .container {
+      h1 {
+        width: 400px;
+      }
+    }
+  }
+}
+
+@media (max-width: 510px) {
+  main {
+    justify-content: center;
+    align-items: center;
+    margin: 20rem 10rem;
+    margin-top: 5rem;
+    
+    .container {
+      h1 {
+        width: 200px;
+      }
+    }
+  }
+
+  .typewriter {
+    width: 200px;
+    height: 500px;
   }
 }
