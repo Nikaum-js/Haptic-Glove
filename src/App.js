@@ -7,6 +7,7 @@ import { ComingSoon } from "./components/ComingSoon";
 import { HowItWorks } from "./components/HowItWorks";
 import { Usability } from "./components/Usability";
 import { Materials } from "./components/Materials";
+import { Team } from "./components/Team";
 
 import './styles/global.scss';
 
@@ -21,7 +22,8 @@ function App() {
       <HowItWorks />
       <Materials />
       <Usability />
-      <ComingSoon /> 
+      <Team />
+      {/* <ComingSoon />  */}
     </>
   )
 }

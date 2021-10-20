@@ -16,7 +16,9 @@ export function Usability() {
           <h2>Principal função da luva</h2>
 
           <p>
-          A luva física conta com o mpu6050, que serve para calcular a inclinação da mesma, o arduino processa os dados que são enviados  por i2c, logo depois a placa escreve isso em uma porta rx, e logo apos o modulo bluetooth le a informação e envia via bluetooth para o computador
+          A muito tempo a tecnologia VR vem sendo explorado por grandes empresas, como principal foco o entretenimento.
+          Porem nós fomos além e decidimos fazer uma luva que consegue te deixar mais imerso na Realidade Virtual, para que além de entretenimento, a tecnologia também seja util para empresas onde o treinamento é mais dificil
+
           </p>
         </div>
       </div>
