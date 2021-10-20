@@ -7,6 +7,7 @@ import { ComingSoon } from "./components/ComingSoon";
 import { HowItWorks } from "./components/HowItWorks";
 
 import './styles/global.scss';
+import { Materials } from "./components/Materials";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Cards />
       <Evolution />
       <HowItWorks />
+      <Materials />
       <ComingSoon /> 
     </>
   )

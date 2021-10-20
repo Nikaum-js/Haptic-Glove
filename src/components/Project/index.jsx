@@ -1,4 +1,4 @@
-import developerImg from '../../assets/developer.svg'
+import projectImg from '../../assets/Project.svg'
 
 import './styles.scss';
 
@@ -9,7 +9,7 @@ export function Project() {
 
       <div className="container-project">
         <div className="content-image">
-          <img src={developerImg} alt="sobre o projeto" />
+          <img src={projectImg} alt="sobre o projeto" />
         </div>
 
         <div className="content-project">

@@ -45,6 +45,8 @@ main {
       border-radius: 999999px;
       font-weight: 700;
       transition: 0.2s;
+      transition: all 350ms linear 0s;
+      transform: translate3d(0px, 0px, 0px);
     }
 
     button:hover {

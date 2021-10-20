@@ -1,0 +1,129 @@
+section {
+  margin: 7rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .materials-container {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+  
+    .content-box {
+      margin: 5rem 0;
+      background: #333;
+      width: 350px;
+      height: 500px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      border-radius: .75rem;
+
+      #Stm32 {
+        margin-bottom: 5rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2rem;
+        margin-top: 3rem;
+      }
+
+      button {
+        margin: 1rem 0;
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
+        border-radius: 6.25rem;
+        background: var(--yellow-500);
+        color: rgb(255, 255, 255);
+        height: 3rem;
+        display: inline-flex;
+        cursor: pointer;
+        outline: 0px;
+        -webkit-box-align: center;
+        align-items: center;
+        vertical-align: middle;
+        overflow: hidden;
+        position: relative;
+        border: 0px;
+        transition: all 350ms linear 0s;
+        transform: translate3d(0px, 0px, 0px);
+      }
+
+      button:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+@media (max-width: 1370px) {
+  .materials-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1370px) {
+  .materials-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 820px) {
+  section {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
+@media (max-width: 470px) {
+  section {
+    h1 {
+      font-size: 3rem;
+      width: 300px;
+      text-align: center;
+    }
+
+    .materials-container {
+      .content-box {
+        margin: 3rem 0;
+        width: 280px;
+        height: 370px;
+      }
+    }
+  }
+}
+
+@media (max-width: 490px) {
+  section {
+    h1 {
+      font-size: 3rem;
+      width: 300px;
+      text-align: center;
+    }
+
+    .materials-container {
+      .content-box {
+        margin: 1rem 0;
+        width: 280px;
+        height: 370px;
+
+        img {
+          width: 210px;
+          height: 200px;
+        }
+      }
+    }
+  }
+}
