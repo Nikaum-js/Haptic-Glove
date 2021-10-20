@@ -20,7 +20,7 @@ export function Materials() {
         <div id="evolução" className="content-box">
           <h2 id="HC-05">HC-05</h2>
           <img width='300' height='250' src={MaterialImg2} alt="Material" />
-          <h1>R$ 151,35</h1>
+          <h1 id="materials">R$ 151,35</h1>
           <button><a href="https://www.reichelt.com/de/en/4duino-hc-05-4-pin-wireless-module-for-arduino-arduino-hc-05-4-p170173.html">Comprar</a></button>
         </div>
 

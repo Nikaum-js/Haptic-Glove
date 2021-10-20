@@ -5,9 +5,10 @@ import { Evolution } from "./components/Evolution";
 import { Project } from "./components/Project";
 import { ComingSoon } from "./components/ComingSoon";
 import { HowItWorks } from "./components/HowItWorks";
+import { Usability } from "./components/Usability";
+import { Materials } from "./components/Materials";
 
 import './styles/global.scss';
-import { Materials } from "./components/Materials";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Evolution />
       <HowItWorks />
       <Materials />
+      <Usability />
       <ComingSoon /> 
     </>
   )
