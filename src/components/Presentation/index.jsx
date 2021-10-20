@@ -1,5 +1,4 @@
-import ProgramingMan from '../../assets/programing.svg'
-
+import ProgramingMan from '../../assets/programing.svg';
 import './styles.scss'
 
 export function Presentation() {
@@ -46,14 +45,13 @@ export function Presentation() {
     // start the text animation
     StartTextAnimation(0);
   });
-  
   return (
     <main>
       <div className="container typewriter">
         <h3>👨‍💻 Olá, Bem vindo!</h3>
         <h1 className="typing">Faça parte do novo futuro!</h1>
         <h4>O mundo está mudando, e você está pronto para essa mudança!</h4>
-        <button>Saiba mais</button>
+        <button><a href="#project">Saiba mais</a></button>
       </div>
       
       <figure>

@@ -5,7 +5,7 @@ import './styles.scss';
 export function Project() {
   return (
     <div className="project">
-      <h1 id="projeto">Projeto</h1>
+      <h1 id="project">Projeto</h1>
 
       <div className="container-project">
         <div className="content-image">

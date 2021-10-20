@@ -35,7 +35,8 @@
 }
 
 .container-cards .card:hover .face.face1{
-  background: #ff0057;
+  background: var(--yellow-500);
+  border: 2px solid var(--cyan-500);
   transform: translateY(0);
 } 
 

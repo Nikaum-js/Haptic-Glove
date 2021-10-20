@@ -29,10 +29,10 @@ export function Header() {
             <nav>
               <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#projeto">Projeto</a></li>
+                <li><a href="#project">Projeto</a></li>
                 <li><a href="#tecnologias">Tecnologias</a></li>
                 <li><a href="#materials">Materiais</a></li>
-                <li><a href="#time">Nosso Time</a></li>
+                <li><a href="#team">Nosso Time</a></li>
               </ul>
              </nav>
         </div>
