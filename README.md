@@ -3,10 +3,11 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/Nikolas-as/Haptic-Glove?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/Nikolas-as/Haptic-Glove?style=for-the-badge)
 
-<img src="/src/images/home.PNG" alt="exemplo imagem">
+<img src="/src/images/home.png" alt="exemplo imagem">
 
-> Esse é um projeto que eu fiz no Ignite da RocketSeat, consiste numa aplicação feita para ajudar as pessoas na hora de fazer as suas finanças pessoas. 
+> Esse é um site de divulgação e explicação do meu projeto de TCC Haptic-Glove onde eu fiz no Terceiro ano do Ensino Médio Técnico em informatica na Unasp Campus - São Paulo.
 > 
+
 ## Linguagens utilizadas
 
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
