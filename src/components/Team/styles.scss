@@ -70,6 +70,15 @@
   }
 }
 
+@media (max-width: 400px) {
+  .container-team {
+    .box-team {
+      width: 300px;
+      margin: 5rem;
+    }
+  }
+}
+
 .color {
 	animation: bg 10s cubic-bezier(.51,.55,.65,.61) infinite;
 
