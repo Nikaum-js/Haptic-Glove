@@ -12,9 +12,8 @@
 
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [StyledComponents](https://styled-components.com/)
+- [SASS](https://sass-lang.com/)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [TypeScript](https://www.typescriptlang.org/)
 
 ## 🚀 Instalando o Haptic-Glove
 
@@ -22,7 +21,7 @@ Para instalar o Haptic-Glove, siga estas etapas:
 
 Linux, macOS e Windows:
 ```
-git clone https://github.com/Nikolas-as/DT_Money.git
+git clone git@github.com:Nikolas-as/Haptic-Glove.git
 
 cd DT_Money
 
