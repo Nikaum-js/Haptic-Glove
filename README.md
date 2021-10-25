@@ -5,7 +5,7 @@
 
 <img src="/src/images/home.png" alt="exemplo imagem">
 
-> Esse é um site de divulgação e explicação do meu projeto de TCC Haptic-Glove onde eu fiz no Terceiro ano do Ensino Médio Técnico em informatica na Unasp Campus - São Paulo.
+> Esse é um site de divulgação e explicação do meu projeto de TCC Haptic-Glove onde eu fiz no Terceiro ano do Ensino Médio Técnico em informatica na Unasp Campus-São Paulo.
 > 
 
 ## Linguagens utilizadas
