@@ -23,7 +23,7 @@ Linux, macOS e Windows:
 ```
 git clone git@github.com:Nikolas-as/Haptic-Glove.git
 
-cd DT_Money
+cd Haptic-Glove
 
 code .
 
